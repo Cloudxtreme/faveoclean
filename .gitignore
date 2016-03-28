@@ -1,4 +1,7 @@
 /node_modules
+.idea
 Homestead.yaml
 Homestead.json
 /nbproject/private/
+/nbproject
+/.env
