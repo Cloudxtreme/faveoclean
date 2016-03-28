@@ -217,14 +217,8 @@ class DatabaseSeeder extends Seeder
         /* Languages */
         $languages = [
             'English'              => 'en',
-            'Italian'              => 'it',
-            'German'               => 'de',
-            'French'               => 'fr',
-            'Brazilian Portuguese' => 'pt_BR',
             'Dutch'                => 'nl',
-            'Spanish'              => 'es',
-            'Norwegian'            => 'nb_NO',
-            'Danish'               => 'da', ];
+        ];
 
         foreach ($languages as $language => $locale) {
             Languages::create(['name' => $language, 'locale' => $locale]);
